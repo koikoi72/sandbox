@@ -46,6 +46,10 @@ gulp.task('sass', function () {
 });
 
 gulp.task('watch', function () {
+  watch(assetsPath + '/jade/*.jade', function () {
+    gulp.start(['jade']);
+  });
+
   watch(assetsPath + '/js/*.js', function () {
     gulp.start(['webpack']);
   });
