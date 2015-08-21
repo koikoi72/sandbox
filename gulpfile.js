@@ -36,7 +36,7 @@ gulp.task('copy-images', function () {
 });
 
 gulp.task('sass', function () {
-  gulp.src(assetsPath + '/sass/style.sass')
+  gulp.src(assetsPath + '/sass/*.sass')
     .pipe(sass({
       indentedSyntax: true,
       errLogToConsole:true
