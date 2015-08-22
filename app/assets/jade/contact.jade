@@ -1,0 +1,22 @@
+doctype html
+html
+  head
+    link(rel='stylesheet' href='/css/common.css')
+    link(rel='stylesheet' href='/css/signin.css')
+    title Contact Us
+  body
+    .bar-menu
+      a(href='index.html')
+        img#logo(src='/images/logo-linkage.svg')
+      a(href='help.html').menu.help Help
+      a(href='contact.html').menu.contact Contact
+      a(href='http://seginushq.github.io/hello-world/').menu.technical Technical Blog
+      a(href='tour.html').menu.tour Tour
+    .area-contact
+      h1 Contact Us
+      span Your Email Address
+      input(type='text' placeholder='Mail Address')#mail-contact
+      span Your Message
+      textarea(placeholder='Your Message')#text-contact
+      a(href='signin-user.html').submit
+        button(type='button')#button-submit Submit
