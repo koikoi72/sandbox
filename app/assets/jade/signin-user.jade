@@ -1,9 +1,9 @@
 doctype html
 html
   head
-    link(rel='stylesheet' href='/css/common.css' type='text/css')
-    link(rel='stylesheet' href='/css/signin.css' type='text/css')
-    title Sign in Linkage
+    link(rel='stylesheet' href='/css/common.css')
+    link(rel='stylesheet' href='/css/signin.css')
+    title User Sign in
   body
     .bar-menu
       img#logo(src='/images/logo-linkage.svg')
@@ -13,11 +13,12 @@ html
       a(href='tour.html').menu.tour Tour
     .area-signin
       h1 Sign in
-      span.description Enter your team.
-      input(type='text' placeholder='Team Name')#name-team
+      span.description Type your mail address and Password.
+      input(type='text' placeholder='Mail Address')#signin-user
+      input(type='text' placeholder='Password')#signin-user
       a(href='signin-user.html').submit
         button(type='button')#button-submit Continue
       .area-description
-      |Only people who are under contract is Alpha version.
+      | Only people who are under contract is Alpha version.
       br
-      |If you have some questions, please contact us!
+      | If you have some questions, please contact us!
