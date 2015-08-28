@@ -3,80 +3,54 @@ html
   head
     link(rel="stylesheet" href="/css/style.css" type="text/css")
     link(href='http://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css')
+    link(href='https://fonts.googleapis.com/css?family=Noto+Serif' rel='stylesheet' type='text/css')
     title Linkage ~Link to the Frontier~
   body
-    section#page1
-      img#logo(src='/images/logo-linkage-reverse.svg')
-      a(href='signin.html').menu.signin Sign in
-      a(href='help.html').menu.help Help
-      a(href='contact.html').menu.contact Contact
-      a(href='http://seginushq.github.io/hello-world/').menu.technical Technical Blog
-      a(href='tour.html').menu.tour Tour
-
-      .catch
-        span.green Link
-        | &nbsp;to Frontier
-        br
-        span.sub on September Ver.α release
-    section.even
-      img#logo2(src='/images/logo-linkage.svg')
-    section.simple.odd
-      h1.page3 Manage your
-        span.green &nbsp;toDo
-        |&nbsp;on
-        span.purple &nbsp;Labels.
-      .area-text.page3
-        |You can manage your toDo lists on labels.
-        br
-        |With #hashtags.
-        br
-        |Labels can be grouped, and linked.
-        br
-        |Of course, their color and fonts are variable!
-    section.simple.even
-      h1.even Manage your
-        span.purple &nbsp;Labels
-        | &nbsp;on
-        span.green &nbsp;Boards.
-      .area-text.page4
-        | Your labels are on boards.
-        br
-        | You can add labels unlimitedly!
-        br
-        | You can add boards until 5.
-        br
-        | Board screen can be expanded and reducted.
-    section.simple.odd
-      h1.page3 Find your
-        span.green &nbsp;toDo
-        | &nbsp;from
-        span.purple &nbsp;Chats.
-      .area-text.page3
-        | You can communicate with your members on chat window!
-        br
-        | If you find toDo in your talks.
-        br
-        | You can change them as labels.
-        br
-        | On chat window. you can upload picture, movie, etc...
-    section.simple.even
-      h1.purple.even Link
-        span.black &nbsp;to the other!
-      .area-text.page4
-        | Linkage can like to the other SNS and tools.
-        br
-        | We surpport a lot of survices!
-
-    a(href="contact.html")
-      h2.contact.foot Contact Us
-    a(href='http://seginushq.github.io/')
-      h2.tech.foot Technical Blog
-    a(href='https://seginus.jp/about.html')
-      h2.about.foot About Us
-
-      a(href='privacy.html').area-footer Privacy Pollicy
-      a(href='terms.html').area-footer ToS
-      a(href='').area-footer Service Blog
+    video(src='/images/Lin_back.mp4' autoplay loop)
+    main
+      section#page1
+        img#logo(src='/images/logo-linkage-reverse.svg')
+        a(href='signin.html').menu.signin Sign in
+        a(href='help.html').menu.help Help
+        a(href='contact.html').menu.contact Contact
+        a(href='http://seginushq.github.io/hello-world/').menu.technical Technical Blog
+        a(href='tour.html').menu.tour Tour
+        .catch
+          span.green LiNK
+          | &nbsp;anything anytime!
+          br
+          span.sub on September Ver.α release
+      section.even
+        img#logo2(src='/images/logo-linkage.svg')
+      section.simple.odd
+        h1.page3 New Style of Management
+        .area-text.page3
+          p &nbsp; We suggest two innovative and useful functions.
+          p &nbsp; Label: you can make a toDo list into a “label”. With #hashtags, labels are grouped automatically. There are many colors and fonts, and you can choose from them as you like!
+          p &nbsp; Boards: Labels are stocked on the “board”. Then, they are organically linked with each other through our original argolithm. You can add labels one after another, and with arranged labels, you will be able to work efficiently.
+      section.simple.even
+        h1.even Remindness
+        .area-text.page4
+          p &nbsp; Also you can make a label from the chat line, a standard function of Linkage, which will help you not to overlook a toDo list.
+      section.simple.odd
+        h1.page3 Integration
+        .area-text.page3
+          Linkage has a lot of external cooperations with other apps such as Slack, Twitter, Facebook, and so on. Your tasks with other apps can be collectively managed on Linkage. And your current tasks can be smoothly passed down to Linkage, so you can use Linkage right now!
+      section.simple.even
+        h1.purple.even Link
+          span.black &nbsp;to the other!
+        .area-text.page4
+          | Linkage can like to the other SNS and tools.
+          br
+          | We surpport a lot of survices!
+      section.tour-foot
+        a(href='tour.html')
+          img(src='/images/takethetour.svg').taketour
+      footer
+        a(href='privacy.html').area-footer Privacy Pollicy
+        a(href='terms.html').area-footer Terms of Service
+        a(href='').area-footer Service Blog
+        small &copy; 2015 Seginus.ltd
 //
    Created by kashiharaakira on 15/08/14.
 

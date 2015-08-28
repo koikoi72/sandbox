@@ -1,12 +1,28 @@
 img#logo
+  position: relative
+  z-index: 2
   width: 150px
+
+main
+  position: relative
+  z-index: 3
+
+video
+  z-index: 1
+  right: 0
+  top: -200px
+  width: 100%
+  position: absolute
 
 body
   background-color: #fff
   padding: 0
   margin: 0
+  font-family: 'Noto Serif', serif
 
-h1
+.menu,
+h1,
+.catch
   font-family: 'Noto Sans', sans-serif
 
 .menu
@@ -37,10 +53,10 @@ a.menu:hover
   text-align: center
   line-height: 45px
   display: block
-  margin: 50px
+  margin: 8% 0 13% 0
   
 .green
-  color: #00ff00
+  color: #4DFF4D
 
 .purple
   color: #674598
@@ -52,23 +68,25 @@ span.sub
   font-size: 25px
 
 section.simple
-  padding: 50px 15%
+  padding: 50px 20%
 
 section.odd
-  background-color: #dcdcdc
+  background-color: #f3f3f3
 
 section.even
   background-color: #fff
+  height: 180px
 
 section#page1
-  height: 400px
-  background-color: #674598
+  min-height: 350px
+  height: 100%
+  overflow: hidden
   margin: 0
   padding: 0
 
 img#logo2
   display: block
-  margin: 0px auto
+  margin: auto
   width: 300px
 
 h1
@@ -84,13 +102,19 @@ h1.even
   display: block
   margin-top: 35px
   font-size: 20px
+  width: 500px
+  
+p
+  margin: 0
+  padding: 0
 
 .area-text.page4
-  display: block
   margin-top: 35px
   font-size: 20px
   text-align: right
-
+  width: 500px
+  float: right
+  
 h2
   font-weight: 100
   color: #fff
@@ -101,7 +125,7 @@ h2
   margin: 0
   
 h2.contact
-  background-color: #00ff00
+  background-color: #00C500
 
 .tech
   background-color: #674598
@@ -116,8 +140,29 @@ h2.contact
 .area-footer
   display: block
   float: left
-  margin: 10px 0 10px 20px
-  color: #000
+  font-size: 15px
+  margin: 10px 0 10px 25px
+  color: #909090
 
 .area-footer:hover
-  color: rgba(0,0,0,0.5)
+  color: rgba(144,144,144,0.5)
+
+small
+  float: right
+  margin: 10px 25px 10px 0
+ 
+.taketour
+  display: block
+  margin: 0 auto
+  height: 100%
+
+.tour-foot
+  background-color: #674598
+  height: 150px
+
+h1.title-tour
+  text-align: center
+  color: #fff
+
+h1.title-tour:hover
+  color: #40FF00
