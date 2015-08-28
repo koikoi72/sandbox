@@ -1,5 +1,18 @@
 img#logo
+  position: relative
+  z-index: 2
   width: 150px
+
+main
+  position: relative
+  z-index: 3
+
+video
+  z-index: 1
+  right: 0
+  top: -200px
+  width: 100%
+  position: absolute
 
 body
   background-color: #fff
@@ -37,10 +50,10 @@ a.menu:hover
   text-align: center
   line-height: 45px
   display: block
-  margin: 5% 0
+  margin: 8% 0 13% 0
   
 .green
-  color: #00C500
+  color: #4DFF4D
 
 .purple
   color: #674598
@@ -59,16 +72,18 @@ section.odd
 
 section.even
   background-color: #fff
+  height: 180px
 
 section#page1
-  height: 400px
-  background-color: #674598
+  min-height: 350px
+  height: 100%
+  overflow: hidden
   margin: 0
   padding: 0
 
 img#logo2
   display: block
-  margin: 0px auto
+  margin: auto
   width: 300px
 
 h1
@@ -84,13 +99,19 @@ h1.even
   display: block
   margin-top: 35px
   font-size: 20px
+  width: 500px
+  
+p
+  margin: 0
+  padding: 0
 
 .area-text.page4
-  display: block
   margin-top: 35px
   font-size: 20px
   text-align: right
-
+  width: 500px
+  float: right
+  
 h2
   font-weight: 100
   color: #fff
